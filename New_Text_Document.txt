@@ -1,1 +1,15 @@
 Thuis is first line of code 
+
+
+n foo()
+{
+    static $bar = <<<LABEL
+Nothing in here...
+LABEL;
+}
+
+// Class properties/constants
+class foo
+{
+    const BAR = <<<FOOBAR
+Constant examp
